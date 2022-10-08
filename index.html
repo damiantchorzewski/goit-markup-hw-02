@@ -17,20 +17,22 @@
   </head>
   <body>
     <header>
-        <a class="logo-header" href="#" title="WebStudio"><span class="logo-web">Web</span>Studio</a>
-        <nav>
-            <ul>
-                <li class="link-k"><a href="#">Kontakt</a></li>
-                <li class="link-p"><a href="#">Portfolio</a></li>
-                <li class="link-a"><a href="#">Agencja</a></li>
-            </ul>
-        </nav>
+        <div class="box-header">
+            <a class="logo-header" href="#" title="WebStudio"><span class="logo-web">Web</span>Studio</a>
+            <nav>
+                <ul class="navi-list" >
+                    <li><a class="link-k" href="#">Kontakt</a></li>
+                    <li><a class="link-p" href="#">Portfolio</a></li>
+                    <li><a class="link-a" href="#">Agencja</a></li>
+                </ul>
+            </nav>
             <section>
                 <ul> 
-                    <li class="header-mail"><a href="mailto:info@example.com">info@example.com</a></li>
-                      <li class="header-tel"><a href="tel:+48111111111"><span>+48 111 111 111</span></a></li>
+                    <li><a class="header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                      <li><a class="header-tel" href class="header-tel"="tel:+48111111111"><span>+48 111 111 111</span></a></li>
                 </ul>
             </section>
+        </div>
     </header>
     <main>
         <div class="baner">
@@ -39,9 +41,8 @@
             <button class="btn-order" type="button"><span class="span-oredr">Zamów usługę</span></button>  
         </section>
         </div>
-        <div class="box-skills">  
         <section>
-            <ul>
+            <ul class="box-skills">
                 <li class="skill1"><h4>LOREM IPSUM</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p></li>
                 <li class="skill2"><h4>LOREM IPSUM</h4>
@@ -53,11 +54,9 @@
                     </p></li>
             </ul>
         </section>
-        </div>
-        <div class="box-wawd">
-        <section>
+        <section >
             <h2 class="title1">Czym się zajmujemy</h2>
-            <ul>
+            <ul class="box-wawd">
             <li class="image1"><img src="images/zdj1.jpg" 
                     alt="programowanie" 
                     width="370" 
@@ -73,62 +72,71 @@
                 height="294"/></li>
             </ul>
         </section>
-        </div>
-        <div class="team-card">
         <section>
-            <h2 class="title2">Nasz Zespół</h2>
-                <figure  class="card-1">
+            <div class="team" >
+                <h2 class="title2">Nasz Zespół</h2>
+                <ul class="team-cards">
+                <li>
+                    <figure class="card-1">
                     <img src="images/card1.jpg" 
                     alt="men1" 
                     width="270" 
                     height="260"/>
                     <figcaption>
-                        <p><b>John Doe</b></p>
+                        <h4>John Doe</h4>
                         <p>Product Designer</p>
                     </figcaption>
                 </figure>
-                <figure class="card-2">
+                </li>
+                <li>
+                    <figure class="card-2">
                     <img src="images/card2.jpg" 
                     alt="women1" 
                     width="270" 
                     height="260"/>
                     <figcaption>
-                        <p><b>John Doe</b></p>
+                        <h4>John Doe</h4>
                         <p>Frontend Developer</p>
                     </figcaption>
                 </figure>
-                <figure class="card-3">
+                </li>
+                <li>
+                    <figure class="card-3">
                     <img  
                     src="images/card3.jpg" 
                     alt="men2" 
                     width="270" 
                     height="260"/>
                     <figcaption>
-                        <p><b>John Doe</b></p>
+                        <h4>John Doe</h4>
                         <p>Marketing</p>
                     </figcaption>
                 </figure>
-                <figure class="card-4" >
+                </li>
+                <li>
+                    <figure class="card-4">
                     <img src="images/card4.jpg" 
                     alt="men3" 
                     width="270" 
                     height="260"/>
                     <figcaption>
-                        <p><b>John Doe</b></p>
+                        <h4>John Doe</h4>
                         <p>UI Designer</p>
                     </figcaption>
                 </figure>
+            </li>
+            </ul>
+            </div>
         </section>
-        </div>
     </main>
     <footer>
-        <address>
-            
             <a class="logo-footer" href="#" title="WebStudio"><span class="logo-web">Web</span>Studio</a>
-                <p class="footer-address">m. Warszawa, Aleje Jerozolimskie 21</p>
-                <a class="mail-footer" href="mailto:info@example.com">info@example.com</a>
-                <p><a class="tel-footer" href="tel:+48111111111">+48 111 111 111</a></p>
-                
+        <address>
+                <ul class="footer-list">
+                    <li ><p class="footer-address">m. Warszawa, Aleje Jerozolimskie 21</p></li>
+                    <li><a class="mail-footer" href="mailto:info@example.com">info@example.com</a></li>
+                    <li><a class="tel-footer" href="tel:+48111111111">+48 111 111 111</a></li>
+                </ul>
         </address>
     </footer>
     </body>
