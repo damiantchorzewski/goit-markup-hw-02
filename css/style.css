@@ -1,11 +1,64 @@
 body 
 {
-    font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     width: 1600px;
     height: 2349px;
     position: relative;
+}
+a:hover 
+{
+    color: #2196F3;
+}
+h1
+{
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 180px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+footer
+{
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+    background: #2F303A;
+}
+ul
+{
+    list-style-type:none;
+}
+.footer-list
+{
+    position: absolute;
+    width: 246px;
+    height: 100px;
+    left: 215px;
+    top: 80px;
+    padding: 0%;
+}
+p
+{
+    color: #757575;
+}
+button 
+{
+    cursor: pointer;
+}
+.btn-order:hover
+{
+    color:#000000
 }
 .navi
 {
@@ -21,8 +74,6 @@ body
         position: absolute;
         width: 1600px;
         height: 80px;
-        left: 0px;
-        top: 0px;
 }
 .logo-header 
 {
@@ -74,7 +125,6 @@ body
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    font-family: 'Roboto';
     color: #212121;
 }
 .link-k
@@ -91,7 +141,6 @@ body
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    font-family: 'Roboto';
     color: #212121;
 }
 .link-p
@@ -107,7 +156,6 @@ body
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    font-family: 'Roboto';
     color: #212121;
 }
 .link-a
@@ -118,7 +166,6 @@ body
     height: 16px;
     left: 453px;
     top: 32px;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -128,7 +175,7 @@ body
 }
 .baner
 {
-     position: absolute;
+    position: absolute;
     width: 1600px;
     height: 600px;
     left: 0px;
@@ -136,23 +183,7 @@ body
     background: #2F303A;
         
 }
-h1
-{
-    position: absolute;
-    width: 696px;
-    height: 120px;
-    left: 452px;
-    top: 180px;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    
-}
+
 .btn-order
 {
     position: absolute;
@@ -161,6 +192,7 @@ h1
     left: 700px;
     top: 350px;
     background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: #FFFFFF;
 }
@@ -184,10 +216,10 @@ h1
 .box-skills
 {
     position: absolute;
-        width: 1170px;
-        height: 101px;
-        left: 215px;
-        top: 774px;
+    width: 1170px;
+    height: 101px;
+    left: 215px;
+    top: 774px;
 }
 .skill1
 {
@@ -220,10 +252,10 @@ h1
 .box-wawd
 {
     position: absolute;
-        width: 1170px;
-        height: 400px;
-        left: 215px;
-        top: 969px;
+    width: 1170px;
+    height: 400px;
+    left: 215px;
+    top: 969px;
 
 }
 .image1
@@ -257,7 +289,6 @@ h1
     height: 42px;
     left: 600px;
     top: 969px;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -272,7 +303,6 @@ h1
     width: 300px;
     height: 42px;
     left: 650px;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -333,15 +363,6 @@ h1
     background: #FFFFFF;
 
 }
-footer
-{
-    position: absolute;
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 2097px;
-    background: #2F303A;
-}
 .logo-footer 
 {
     text-decoration: none;
@@ -363,7 +384,6 @@ footer
 position: absolute;
 width: 246px;
 height: 21px;
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -393,40 +413,10 @@ color: #FFFFFF;
     width: 231px;
     height: 21px; 
     top: 70px;
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
-
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
-ul
-{
-    list-style-type:none;
-}
-.footer-list
-{
-    position: absolute;
-    width: 246px;
-    height: 100px;
-    left: 215px;
-    top: 80px;
-    padding: 0%;
-}
-p
-{
-    color: #757575;
-}
-a:hover 
-{
-    color: #2196F3;
-}
-.btn-order:hover
-{
-    color:#000000
-}
-
-button {
-    cursor: pointer;}
