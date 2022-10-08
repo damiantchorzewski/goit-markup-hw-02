@@ -20,7 +20,7 @@ h1
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.363636;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -87,7 +87,7 @@ button
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1,1923076;
     letter-spacing: 0.03em;
     color: #000000;
 }
@@ -107,7 +107,7 @@ button
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,142857;
     letter-spacing: 0.02em;
     color: #757575;
 }
@@ -123,7 +123,7 @@ button
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,142857;
     letter-spacing: 0.02em;
     color: #212121;
 }
@@ -139,7 +139,7 @@ button
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,142857;
     letter-spacing: 0.02em;
     color: #212121;
 }
@@ -154,7 +154,7 @@ button
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,142857;
     letter-spacing: 0.02em;
     color: #212121;
 }
@@ -169,7 +169,7 @@ button
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,142857;
     letter-spacing: 0.02em;
     color: #212121;
 }
@@ -207,7 +207,7 @@ button
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1,875;
     display: flex;
     align-items: center;
     text-align: center;
@@ -220,13 +220,19 @@ button
     height: 101px;
     left: 215px;
     top: 774px;
+    text-align: right;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,714285;
 }
 .skill1
 {
     position: absolute;
     width: 270px;
     height: 101px;
-    left:0;
+    left: 0px;
 }
 .skill2
 {
@@ -234,6 +240,7 @@ button
     width: 270px;
     height: 101px;
     left: 300px;
+
 }
 .skill3
 {
@@ -249,7 +256,7 @@ button
     height: 101px;
     left: 900px;
 }
-.box-wawd
+.box-img
 {
     position: absolute;
     width: 1170px;
@@ -292,7 +299,7 @@ button
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1,166666666666667;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -306,7 +313,7 @@ button
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1,166666666666667;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -316,7 +323,7 @@ button
     position: absolute;
     width: 1170px;
     height: 368px;
-    text-align: center;    
+    text-align: center;
 }
 .team
 {    
@@ -334,6 +341,7 @@ button
     left: 180px;
     top:100px;
     background: #FFFFFF;
+   
 }
 .card-2
 {
@@ -375,21 +383,21 @@ button
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1,1923076;
     letter-spacing: 0.03em;
     color: #ffffff;
 }
 .footer-address
 { 
-position: absolute;
-width: 246px;
-height: 21px;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
-color: #FFFFFF;
+    position: absolute;
+    width: 246px;
+    height: 21px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,714285;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
 .mail-footer 
 {
@@ -401,7 +409,7 @@ color: #FFFFFF;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,714285;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     letter-spacing: 0.03em;
@@ -416,7 +424,7 @@ color: #FFFFFF;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,714285;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
