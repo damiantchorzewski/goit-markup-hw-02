@@ -5,6 +5,7 @@ body
     width: 1600px;
     height: 2349px;
     position: relative;
+    color: #757575;
 }
 a:hover 
 {
@@ -25,6 +26,17 @@ h1
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+h4
+{
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+h5
+{
+    color: #212121;
+    font-size: 16px;
 }
 footer
 {
@@ -48,10 +60,7 @@ ul
     top: 80px;
     padding: 0%;
 }
-p
-{
-    color: #757575;
-}
+
 button 
 {
     cursor: pointer;
@@ -71,9 +80,9 @@ button
 }
 .box-header
 {
-        position: absolute;
-        width: 1600px;
-        height: 80px;
+    position: absolute;
+    width: 1600px;
+    height: 80px;
 }
 .logo-header 
 {
@@ -104,8 +113,6 @@ button
     height: 16px;
     left: 1263px;
     top: 32px;
-    font-style: normal;
-    font-weight: 500;
     font-size: 14px;
     line-height: 1,142857;
     letter-spacing: 0.02em;
@@ -120,8 +127,6 @@ button
     height: 16px;
     left: 1078px;
     top: 32px;
-    font-style: normal;
-    font-weight: 500;
     font-size: 14px;
     line-height: 1,142857;
     letter-spacing: 0.02em;
@@ -136,8 +141,6 @@ button
     height: 16px;
     left: 656px;
     top: 32px;
-    font-style: normal;
-    font-weight: 500;
     font-size: 14px;
     line-height: 1,142857;
     letter-spacing: 0.02em;
@@ -151,8 +154,6 @@ button
     height: 16px;
     top: 32px;
     left: 550px; 
-    font-style: normal;
-    font-weight: 500;
     font-size: 14px;
     line-height: 1,142857;
     letter-spacing: 0.02em;
@@ -166,8 +167,6 @@ button
     height: 16px;
     left: 453px;
     top: 32px;
-    font-style: normal;
-    font-weight: 500;
     font-size: 14px;
     line-height: 1,142857;
     letter-spacing: 0.02em;
@@ -180,8 +179,7 @@ button
     height: 600px;
     left: 0px;
     top: 80px;
-    background: #2F303A;
-        
+    background: #2F303A;    
 }
 
 .btn-order
