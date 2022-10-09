@@ -72,15 +72,6 @@ button
 {
     color:#000000
 }
-.navi
-{
-    position: absolute;
-    width: 254px;
-    height: 16px;
-    left: 453px;
-    top: 32px;
-
-}
 .box-header
 {
     position: absolute;
@@ -105,6 +96,50 @@ button
 .logo-web 
 {
     color: #2196F3;
+}
+.menu-navi
+{
+    position: absolute;
+    width: 254px;
+    height: 16px;
+    left: 425px;
+    top: 32px;
+    margin: 0;
+}
+.link-k
+{
+    text-decoration: none;
+    position: absolute;
+    width: 51px;
+    height: 16px;
+    left: 220px;
+    font-size: 14px;
+    line-height: 1,142857;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.link-p
+{
+    text-decoration: none;
+    position: absolute;
+    width: 58px;
+    height: 16px;
+    left: 125px;
+    font-size: 14px;
+    line-height: 1,142857;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.link-a
+{
+    text-decoration: none;
+    position: absolute;
+    width: 53px;
+    height: 16px;
+    font-size: 14px;
+    line-height: 1,142857;
+    letter-spacing: 0.02em;
+    color: #212121;
 }
 .header-tel 
 {
@@ -134,46 +169,7 @@ button
     letter-spacing: 0.02em;
     color: #212121;
 }
-.link-k
-{
-    text-decoration: none;
-    position: absolute;
-    position: absolute;
-    width: 51px;
-    height: 16px;
-    left: 656px;
-    top: 32px;
-    font-size: 14px;
-    line-height: 1,142857;
-    letter-spacing: 0.02em;
-    color: #212121;
-}
-.link-p
-{
-    text-decoration: none;
-    position: absolute;
-    width: 58px;
-    height: 16px;
-    top: 32px;
-    left: 550px; 
-    font-size: 14px;
-    line-height: 1,142857;
-    letter-spacing: 0.02em;
-    color: #212121;
-}
-.link-a
-{
-    text-decoration: none;
-    position: absolute;
-    width: 53px;
-    height: 16px;
-    left: 453px;
-    top: 32px;
-    font-size: 14px;
-    line-height: 1,142857;
-    letter-spacing: 0.02em;
-    color: #212121;
-}
+
 .baner
 {
     position: absolute;
@@ -437,13 +433,3 @@ ul
     top: 80px;
     padding: 0%;
 }
-a:hover 
-{
-    color: #2196F3;
-}
-.btn-order:hover
-{
-    color:#000000
-}
-button {
-    cursor: pointer;}
