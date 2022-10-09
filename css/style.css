@@ -406,14 +406,13 @@ button
     position: absolute;
     width: 231px;
     height: 21px;
-    top: 40px;
+    top: 45px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1,714285;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-    letter-spacing: 0.03em;
 }
 .tel-footer
 {
@@ -421,7 +420,7 @@ button
     position: absolute;
     width: 231px;
     height: 21px; 
-    top: 70px;
+    top: 75px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
