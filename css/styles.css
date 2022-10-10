@@ -24,6 +24,10 @@ a:hover
 {
     color: #2196F3;
 }
+a:focus
+{
+    color: #2196F3;
+}
 h1
 {
     position: absolute;
@@ -49,6 +53,7 @@ h5
 {
     color: #212121;
     font-size: 16px;
+    line-height: 1.18;
     letter-spacing: 0.03em;
     margin-bottom: -8px;
 }
@@ -77,6 +82,7 @@ ul
 button 
 {
     cursor: pointer;
+    border-radius: 4px;
 }
 .footer-list
 {
@@ -90,6 +96,10 @@ button
 .btn-order:hover
 {
     color:#000000;
+}
+.btn-order:focus
+{
+    color:#000000; 
 }
 .box-header
 {
@@ -108,7 +118,7 @@ button
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #000000;
 }
@@ -133,7 +143,7 @@ button
     height: 16px;
     left: 220px;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
 }
@@ -145,7 +155,7 @@ button
     height: 16px;
     left: 125px;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
 }
@@ -156,7 +166,7 @@ button
     width: 53px;
     height: 16px;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
 }
@@ -170,7 +180,7 @@ button
     left: 1263px;
     top: 32px;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
 }
@@ -184,7 +194,7 @@ button
     left: 1078px;
     top: 32px;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
 }
@@ -208,7 +218,6 @@ button
     top: 350px;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
     color: #FFFFFF;
 }
 .span-order
@@ -219,7 +228,7 @@ button
     top: 440px;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1,87;
+    line-height: 1.87;
 }
 .box-skills
 {
@@ -233,7 +242,7 @@ button
     letter-spacing: 0.03em;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
 }
 .skill1
 {
@@ -306,7 +315,7 @@ button
     top: 969px;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,16;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -319,7 +328,7 @@ button
     left: 650px;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,16;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -396,7 +405,7 @@ button
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #ffffff;
 }
@@ -408,7 +417,7 @@ button
     height: 21px;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
     
@@ -424,7 +433,7 @@ button
     top: 42px;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -439,7 +448,7 @@ button
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 
@@ -463,7 +472,12 @@ ul
     color: #F5F4FA;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
+#btn:focus
+{
+    background-color: #2196F3;
+    color: #F5F4FA;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 .btn-all
 {
     position: absolute;
