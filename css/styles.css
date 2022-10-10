@@ -220,17 +220,11 @@ button
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     color: #FFFFFF;
-}
-.span-order
-{
-    width: 117px;
-    height: 30px;
-    left: 742px;
-    top: 440px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
 }
+ 
 .box-skills
 {
     position: absolute;
