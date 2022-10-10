@@ -1,4 +1,4 @@
-body 
+.body-index 
 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -9,6 +9,17 @@ body
     color: #757575;
     background: #FFFFFF;
 }
+.body-portfolio
+{
+    width: 1600px;
+    height: 1880px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    position: relative;
+    color: #757575;
+    background: #FFFFFF;
+        }
 a:hover 
 {
     color: #2196F3;
@@ -22,7 +33,7 @@ h1
     top: 180px;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.363636;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -38,11 +49,11 @@ h5
 {
     color: #212121;
     font-size: 16px;
-    line-height: 1,1875;
+    line-height: 1,18;
     letter-spacing: 0.03em;
     margin-bottom: -8px;
 }
-footer
+.footer-index
 {
     position: absolute;
     width: 1600px;
@@ -50,6 +61,15 @@ footer
     left: 0px;
     top: 2097px;
     background: #2F303A;
+}
+.footer-portfolio
+{
+    position: absolute;
+        width: 1600px;
+        height: 252px;
+        left: 0px;
+        top: 1628px;
+        background: #2F303A;
 }
 ul
 {
@@ -89,7 +109,7 @@ button
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,1923076;
+    line-height: 1,19;
     letter-spacing: 0.03em;
     color: #000000;
 }
@@ -114,7 +134,7 @@ button
     height: 16px;
     left: 220px;
     font-size: 14px;
-    line-height: 1,142857;
+    line-height: 1,14;
     letter-spacing: 0.02em;
     color: #212121;
 }
@@ -126,7 +146,7 @@ button
     height: 16px;
     left: 125px;
     font-size: 14px;
-    line-height: 1,142857;
+    line-height: 1,14;
     letter-spacing: 0.02em;
     color: #212121;
 }
@@ -137,7 +157,7 @@ button
     width: 53px;
     height: 16px;
     font-size: 14px;
-    line-height: 1,142857;
+    line-height: 1,14;
     letter-spacing: 0.02em;
     color: #212121;
 }
@@ -151,7 +171,7 @@ button
     left: 1263px;
     top: 32px;
     font-size: 14px;
-    line-height: 1,142857;
+    line-height: 1,14;
     letter-spacing: 0.02em;
     color: #757575;
 }
@@ -165,7 +185,7 @@ button
     left: 1078px;
     top: 32px;
     font-size: 14px;
-    line-height: 1,142857;
+    line-height: 1,14;
     letter-spacing: 0.02em;
     color: #212121;
 }
@@ -200,7 +220,7 @@ button
     top: 440px;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1,875;
+    line-height: 1,87;
 }
 .box-skills
 {
@@ -214,7 +234,7 @@ button
     letter-spacing: 0.03em;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,714285;
+    line-height: 1,71;
 }
 .skill1
 {
@@ -287,7 +307,7 @@ button
     top: 969px;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,166666666666667;
+    line-height: 1,16;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -300,7 +320,7 @@ button
     left: 650px;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,166666666666667;
+    line-height: 1,16;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -377,31 +397,35 @@ button
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,1923076;
+    line-height: 1,19;
     letter-spacing: 0.03em;
     color: #ffffff;
 }
 .footer-address
 { 
+    font-style: normal;
     position: absolute;
     width: 246px;
     height: 21px;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,714285;
+    line-height: 1,71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    
 }
 .mail-footer 
 {
     text-decoration: none;
+    text-decoration: underline;
+    font-style: normal;
     position: absolute;
     width: 231px;
     height: 21px;
-    top: 45px;
+    top: 42px;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,714285;
+    line-height: 1,71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -409,13 +433,14 @@ button
 {
     text-decoration: none;
     position: absolute;
+    font-style: normal;
     width: 231px;
     height: 21px; 
     top: 70px;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,714285;
+    line-height: 1,71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 
@@ -443,16 +468,15 @@ ul
 .btn-all
 {
     position: absolute;
-        height: 38px;
-        width: 121px;
-        left: 510px;
-        top: 174px;
-         background: #F5F4FA;
-border: 0;
-font-family: 'Roboto';
+    height: 38px;
+    width: 121px;
+    left: 510px;
+    top: 174px;
+    background: #F5F4FA;
+    font-size: 16px;
+    border: 0;
     font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
+    line-height: 0.31;
     text-align: center;
 letter-spacing: 0.03em;
 
@@ -468,12 +492,11 @@ color: #212121;
     top: 174px;
     background: #F5F4FA;
     border: 0;
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        line-height: 20px;
-        text-align: center;
-        letter-spacing: 0.03em;
+    font-style: normal;
+    line-height: 0.31;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .btn-app
 {
@@ -482,13 +505,12 @@ position: absolute;
     left: 740px;
     width: 114px;
     top: 174px;
-height: 38px;
-background: #F5F4FA;
-border: 0;
-font-family: 'Roboto';
+    height: 38px;
+    background: #F5F4FA;
+    border: 0;
     font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 0.31;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -497,43 +519,130 @@ font-family: 'Roboto';
     position: absolute;
     height: 38px;
     width: 91px;
-        left: 862px;
-        top: 174px;
+     left: 862px;
+     top: 174px;
     background: #F5F4FA;
-border: 0;
-font-family: 'Roboto';
+    border: 0;
     font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 0.31;
     text-align: center;
     letter-spacing: 0.03em;
 }
 .btn-mark
     {
         position: absolute;
-            width: 121px;
-            height: 38px;
-            left: 961px;
-            top: 174px;
+         width: 121px;
+         height: 38px;
+         left: 961px;
+         top: 174px;
         background: #F5F4FA;
         border: 0;
-        font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 500;
-            line-height: 20px;
-            text-align: center;
-            letter-spacing: 0.03em;
+        font-size: 16px;
+        font-style: normal;
+        line-height: 0.31;
+        text-align: center;
+        letter-spacing: 0.03em;
     }
-    .list-post
-    {column-count: 3;}
-    
     .post1
-    {box-sizing: border-box;
-    
+    {
+        box-sizing: border-box;
         position: absolute;
         width: 370px;
         height: 404px;
-    
+        left: 215px;
+        top: 262px;
         background: #FFFFFF;
-        border: 1px solid #EEEEEE;)
-        
+        border: 1px solid #EEEEEE;
+    }
+    .post2
+    {
+        box-sizing: border-box;
+            position: absolute;
+            width: 370px;
+            height: 404px;
+            left: 615px;
+            top: 262px;
+            background: #FFFFFF;
+            border: 1px solid #EEEEEE;
+    }
+    .post3
+        {box-sizing: border-box;
+        position: absolute;
+        width: 370px;
+        height: 404px;
+        left: 1015px;
+        top: 262px;
+        background: #FFFFFF;
+        border: 1px solid #EEEEEE;
+}
+.post4
+{
+    box-sizing: border-box;
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 696px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+.post5
+{
+    box-sizing: border-box;
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 615px;
+    top: 696px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+.post6
+{
+    box-sizing: border-box;
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 1015px;
+    top: 696px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+.post7
+{
+    box-sizing: border-box;
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 1130px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+.post8
+{
+    box-sizing: border-box;
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 615px;
+    top: 1130px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+.post9
+{
+    box-sizing: border-box;
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 1015px;
+    top: 1130px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+.text-post
+{
+    margin-left: 24px;
+}
