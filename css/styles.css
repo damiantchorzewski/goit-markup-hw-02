@@ -223,6 +223,8 @@ button
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
+    align-items: center;
+        text-align: center;
 }
  
 .box-skills
