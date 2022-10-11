@@ -410,7 +410,7 @@ button
 { 
     font-style: normal;
     position: absolute;
-    width: 246px;
+    width: 250px;
     height: 21px;
     font-size: 14px;
     line-height: 1.71;
@@ -440,7 +440,6 @@ button
     width: 231px;
     height: 21px; 
     top: 70px;
-    font-family: 'Roboto';
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
